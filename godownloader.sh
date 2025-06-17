@@ -66,6 +66,7 @@ get_binaries() {
     darwin/arm64) BINARIES="kaf" ;;
     linux/amd64) BINARIES="kaf" ;;
     linux/arm64) BINARIES="kaf" ;;
+    linux/ppc64le) BINARIES="kaf" ;;
     windows/amd64) BINARIES="kaf" ;;
     windows/arm64) BINARIES="kaf" ;;
     *)
